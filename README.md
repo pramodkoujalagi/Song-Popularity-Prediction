@@ -1,6 +1,11 @@
-# Spotify Data Analysis and Stream Prediction 🎵📊
+# Data Analysis and Stream Prediction 🎵📊
 
-Welcome to the Spotify Data Analysis and Stream Prediction project! In this innovative endeavor, we delve into the world of Spotify datasets to uncover insights and predict the number of streams for songs based on various features. Let's embark on this exciting journey!
+Machine learning model to predict the number of streams a song receives in a year based on all the key attributes given in the dataset.
+
+## Presentation
+[Presentation by Pramod Koujalagi](https://docs.google.com/presentation/d/1xQkbXngJ2TGgC9z_eU-K9wptXmJXtR_DA93tG4MWCiM/edit?usp=sharing)
+
+[Dataset](https://docs.google.com/spreadsheets/d/1W7GH_zYIQ5ewdtAu58S8gLqQ23Q6f6mpWogKWSClSG0/edit?usp=sharing)
 
 ## Data Exploration and Preprocessing 🚀🔍
 
@@ -130,7 +135,3 @@ input_df = input_df.apply(pd.to_numeric)
 prediction = loaded_model.predict(input_df)
 print(f'The predicted number of streams for the song is {prediction[0]:.0f}')
 ```
-
-## Conclusion 🎉📝
-
-In this mind-blowing journey, we explored Spotify data, engineered features, built machine learning models, and predicted the number of streams for songs with remarkable accuracy. 🎶✨
