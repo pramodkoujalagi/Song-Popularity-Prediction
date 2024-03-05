@@ -136,3 +136,6 @@ input_df = input_df.apply(pd.to_numeric)
 prediction = loaded_model.predict(input_df)
 print(f'The predicted number of streams for the song is {prediction[0]:.0f}')
 ```
+
+## ⚖️ License
+[MIT License](LICENSE)
